@@ -6,10 +6,11 @@ function App() {
     <div className="App">
       <header className="app-header">
         <h1 className="app-heading">Tyler Alsop</h1>
-        <h2 className="app-subheading">Web Developer</h2>
+        <h3 className="app-subheading">Web Developer</h3>
       </header>
       <div className="deployed-projects">
-        <h2><a href="https://zeit.co/tyleralsop/react-american-football-scoreboard">American Football Scoreboard</a></h2>
+        <h1 className="section-heading">Delpoyed Apps</h1>
+        <h3 className="app-link"><a className="app-link" href="https://react-american-football-scoreboard-sigma.now.sh/" target="_blank">American Football Scoreboard</a></h3>
       </div>
 
     </div>
